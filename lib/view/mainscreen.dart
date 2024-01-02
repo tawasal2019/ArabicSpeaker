@@ -139,8 +139,8 @@ class _MainScreenState extends State<MainScreen> {
           ? data["iosVersionArabicSpeaker"]
           : data["androidVersionArabicSpeaker"];
       int version = int.parse(packageInfo.version);
-      print(lastiosversion);
-      print(version)
+      //print(lastiosversion);
+     // print(version)
 ;
 
       if (lastiosversion > version) {

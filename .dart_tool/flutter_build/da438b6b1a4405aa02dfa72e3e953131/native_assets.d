@@ -1,0 +1,1 @@
+ /Users/tawasal/Desktop/toUploadForArabicSpeaker/ArabicSpeaker/.dart_tool/flutter_build/da438b6b1a4405aa02dfa72e3e953131/native_assets.yaml: 
