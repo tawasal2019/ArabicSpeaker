@@ -3,6 +3,7 @@
 import 'package:arabicspeaker/controller/my_provider.dart';
 import 'package:arabicspeaker/view/Auth/login.dart';
 import 'package:arabicspeaker/view/mainscreen.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
@@ -82,13 +83,20 @@ class _MyAppState extends State<MyApp> {
           theme: ThemeData(
             primarySwatch: Colors.grey,
           ),
-          home: loading
+          home:
+          ( FirebaseAuth.instance.currentUser!=null)&&(FirebaseAuth.instance.currentUser!.emailVerified)
+              ?  const MainScreen(navindex: 0)
+              : const Login(),
+
+          /* loading
               ? const Scaffold(
                   body: Center(child: CircularProgressIndicator()),
                 )
               : signOrLogIn == false
                   ? const Login()
-                  : const MainScreen(navindex: 0),
-        ));
+                  : const MainScreen(navindex: 0),*/
+
+        )
+    );
   }
 }

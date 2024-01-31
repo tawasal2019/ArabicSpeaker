@@ -1,0 +1,1 @@
+ /Users/tawasal/Desktop/Flutter_Projects/Arabic_Speaker/untitled\ folder/ArabicSpeaker/.dart_tool/flutter_build/89eb750ce45dabb8d089c746f0aceb10/native_assets.yaml: 

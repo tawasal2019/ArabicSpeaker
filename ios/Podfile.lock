@@ -985,7 +985,7 @@ SPEC CHECKSUMS:
   FirebaseMessaging: 9bc34a98d2e0237e1b121915120d4d48ddcf301e
   FirebaseSharedSwift: f34eeb7d3ea87a34497629b6ca41657beadef76a
   FirebaseStorage: 8333c4b183764cdd170d9539a61322b71c23adff
-  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   flutter_audio_recorder2: 0eda9d0c791d9d093e6f5f07df414d34edec4eda
   flutter_tts: 0f492aab6accf87059b72354fcb4ba934304771d
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a

@@ -4,6 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';*/
 import 'dart:async';
 
+import 'package:arabicspeaker/view/Auth/login.dart';
 import 'package:arabicspeaker/view/Auth/signup.dart';
 import 'package:arabicspeaker/view/mainscreen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -27,7 +28,6 @@ class _EmailVerificationScreenState extends State<EmailVerificationScreen> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    FirebaseAuth.instance.currentUser?.sendEmailVerification();
     timer =
         Timer.periodic(const Duration(seconds: 3), (_) => checkEmailVerified());
   }
@@ -61,30 +61,29 @@ class _EmailVerificationScreenState extends State<EmailVerificationScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body:AlertDialog(
+    return AlertDialog(
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(15),
           ),
           title: const Center(child: Text('التحقق من الايميل')),
           content: Container(
-            width: 300,
-            height: 100,
+            width: 120,
+            height: 120,
             child: Column(
 
-              children: [
-                Text(
-                  'لقد قمنا بارسال رابط للتحقق من بريدك الالكتروني على ',
-                  textAlign: TextAlign.center,
-                ),
-                Text(
-                  ' ${FirebaseAuth.instance.currentUser!.email} ',
-                  textAlign: TextAlign.center,
-                ),
-              ],
-            ),
+                children: [
+                  Text(
+                    'لقد قمنا بارسال رابط للتحقق من بريدك الالكتروني على ',
+                    textAlign: TextAlign.center,
+                  ),
+                  Text(
+                    ' ${FirebaseAuth.instance.currentUser!.email} ',
+                    textAlign: TextAlign.center,
+                  ),
+                ],
+              ),
           ),
+
           actions: <Widget>[
             Column(
               children: [
@@ -95,22 +94,11 @@ class _EmailVerificationScreenState extends State<EmailVerificationScreen> {
                         borderRadius: BorderRadius.circular(11)),
                   ),
                   onPressed: () async {
-                    final FirebaseAuth auth = FirebaseAuth.instance;
-                    User? user = auth.currentUser;
-                    if (user != null) {
-                      try {
-                        await user.delete();
-                      } catch (_) {}
-                    }
-                    auth.signOut();
+                    Navigator.pop(context);
 
-                    SharedPreferences getSignUpOrLogin =
-                    await SharedPreferences.getInstance();
-
-                    getSignUpOrLogin.setBool("getSignUpOrLogin", false);
                     Navigator.pushAndRemoveUntil(
                         context,
-                        MaterialPageRoute(builder: (context) => const Signup()),
+                        MaterialPageRoute(builder: (context) => const Login()),
                             (route) => false);
 
                   },
@@ -148,7 +136,7 @@ class _EmailVerificationScreenState extends State<EmailVerificationScreen> {
               ],
             )
           ],
-        ),
+        );
         /* SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -303,7 +291,7 @@ class _EmailVerificationScreenState extends State<EmailVerificationScreen> {
             ],
           ),
         ),*/
-      ),
-    );
+
+
   }
 }

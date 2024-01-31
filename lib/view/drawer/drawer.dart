@@ -63,13 +63,8 @@ class _DrawercState extends State<Drawerc> {
   double fontSize = size == 0 ? 24 : 20;
   @override
   Widget build(BuildContext context) {
-    return isLoading
-        ? Center(
-      child: CircularProgressIndicator(
-        color: maincolor,
-      ),
-    )
-        : Drawer(
+    return FirebaseAuth.instance.currentUser!=null?
+    Drawer(
         child: Column(
           children: [
             SizedBox(
@@ -199,6 +194,8 @@ class _DrawercState extends State<Drawerc> {
                                                           isFemale = false;
                                                           radiovalue1 = v as int;
                                                         });
+                                                        Navigator.pop(context);
+
                                                       },
                                                       activeColor: maincolor,
                                                     ),
@@ -225,6 +222,8 @@ class _DrawercState extends State<Drawerc> {
                                                             radiovalue1 =
                                                             v as int;
                                                           });
+                                                          Navigator.pop(context);
+
                                                         },
                                                         activeColor: maincolor),
                                                   ),
@@ -1127,6 +1126,6 @@ class _DrawercState extends State<Drawerc> {
                 ),
 
           ],
-        ));
+        )):const Login();
   }
 }

@@ -394,10 +394,8 @@ class _LoginState extends State<Signup> {
                                                 getSignUpOrLogin.setBool(
                                                     "getSignUpOrLogin", true);
                                               }
-                                              final FirebaseAuth auth =
-                                                  FirebaseAuth.instance;
-                                              await auth.currentUser!
-                                                  .sendEmailVerification();
+                                              FirebaseAuth.instance.currentUser?.sendEmailVerification();
+
                                               showDialog(
                                                 context: context,
                                                 barrierDismissible:

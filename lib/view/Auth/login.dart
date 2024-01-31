@@ -1,6 +1,7 @@
 // ignore_for_file: use_build_context_synchronously, non_constant_identifier_names
 
 import 'package:arabicspeaker/controller/checkinternet.dart';
+import 'package:arabicspeaker/view/Auth/verify_email.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 import '../../controller/setdataonlogin.dart';
@@ -294,12 +295,29 @@ class _LoginState extends State<Login> {
                                           getSignUpOrLogin.setBool(
                                               "getSignUpOrLogin", true);
                                         }
-                                        Navigator.pushReplacement(
-                                            context,
-                                            MaterialPageRoute(
-                                                builder: (context) =>
-                                                    const MainScreen(
-                                                        navindex: 0)));
+                                        if(  ( FirebaseAuth.instance.currentUser!=null)&&(FirebaseAuth.instance.currentUser!.emailVerified)){
+
+                                          Navigator.pushReplacement(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) =>
+                                                  const MainScreen(
+                                                      navindex: 0)));
+
+
+                                        }else{
+                                          FirebaseAuth.instance.currentUser?.sendEmailVerification();
+                                          showDialog(
+                                            context: context,
+                                            barrierDismissible:
+                                            false, // Prevent dismissing by tapping outside
+                                            builder:
+                                                (BuildContext context) {
+                                              return const EmailVerificationScreen();
+                                            },
+                                          );
+                                        }
+
                                       });
                                     } else {
                                       ScaffoldMessenger.of(context)
