@@ -4,6 +4,14 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>GTMSessionFetcher_Core_Privacy.bundle/Info.plist</key>
+		<data>
+		fE14Jrqf9PoNXnCR1KBdwIemHrE=
+		</data>
+		<key>GTMSessionFetcher_Core_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		GqeAMkwbcNQeG0K4qQhQh2vHhHo=
+		</data>
 		<key>Headers/GTMSessionFetcher-umbrella.h</key>
 		<data>
 		uk5tfn4+qFjgRMutCcPDErlSaiE=
@@ -14,7 +22,7 @@
 		</data>
 		<key>Headers/GTMSessionFetcherLogging.h</key>
 		<data>
-		vFtOipBuEf02JCLgs39Y4wvulB8=
+		OarAK/xhbLrf3l1Rs7fmZYjpY+s=
 		</data>
 		<key>Headers/GTMSessionFetcherService.h</key>
 		<data>
@@ -26,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6E35EjGMqhNpc2FQWZ4oggKRw7Q=
+		HSQ/7F1hoP37BjdPBxE7J7WIlBA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,6 +43,20 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>GTMSessionFetcher_Core_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PQQvHP8sGsm+YmzFufsMOw8jGQ0ExeDdO/k4gb1d+Ms=
+			</data>
+		</dict>
+		<key>GTMSessionFetcher_Core_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PkqTy+hqzvfdfgY6KMhJmS9Vbn9SytxfN8HosOG1RoY=
+			</data>
+		</dict>
 		<key>Headers/GTMSessionFetcher-umbrella.h</key>
 		<dict>
 			<key>hash2</key>
@@ -53,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F7xvUlqnZ4ZstcfQaleLxrVyaal/wPqL9msBVjsAXxo=
+			kLGAoYz9D1T929Ogar/2lyKQDrsGraqasNrbJRZXBLw=
 			</data>
 		</dict>
 		<key>Headers/GTMSessionFetcherService.h</key>

@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rAU/values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "/Users/tawasal/.gradle/caches/transforms-3/ebb391495d4bdf1b6ef8fbd901c4131b/transformed/jetified-exoplayer-core-2.18.1/res/values-en-rAU/values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,187,252,316,393,458,548,633",
+                        "endColumns": "69,61,64,63,76,64,89,84,68",
+                        "endOffsets": "120,182,247,311,388,453,543,628,697"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "257,327,389,454,518,595,660,750,835",
+                        "endColumns": "69,61,64,63,76,64,89,84,68",
+                        "endOffsets": "322,384,449,513,590,655,745,830,899"
+                    }
+                },
+                {
+                    "source": "/Users/tawasal/.gradle/caches/transforms-3/b58a21820af0bcb9b78395bace906aa1/transformed/browser-1.4.0/res/values-en-rAU/values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,153,250,359",
+                        "endColumns": "97,96,108,98",
+                        "endOffsets": "148,245,354,453"
+                    },
+                    "to": {
+                        "startLines": "2,13,14,15",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,904,1001,1110",
+                        "endColumns": "97,96,108,98",
+                        "endOffsets": "148,996,1105,1204"
+                    }
+                },
+                {
+                    "source": "/Users/tawasal/.gradle/caches/transforms-3/e809bf899d4763bf8c3d73f07d074d59/transformed/jetified-media2-session-1.2.0/res/values-en-rAU/values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,159,256,350,471",
+                        "endColumns": "103,96,93,120,128",
+                        "endOffsets": "154,251,345,466,595"
+                    },
+                    "to": {
+                        "startLines": "3,16,17,18,19",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "153,1209,1306,1400,1521",
+                        "endColumns": "103,96,93,120,128",
+                        "endOffsets": "252,1301,1395,1516,1645"
+                    }
+                },
+                {
+                    "source": "/Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/res/values-en-rAU/values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1650",
+                        "endColumns": "100",
+                        "endOffsets": "1746"
+                    }
+                }
+            ]
+        }
+    ]
+}

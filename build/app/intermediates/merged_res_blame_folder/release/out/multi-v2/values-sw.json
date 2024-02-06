@@ -1,0 +1,111 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw/values-sw.xml",
+            "map": [
+                {
+                    "source": "/Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/res/values-sw/values-sw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "38",
+                        "startColumns": "4",
+                        "startOffsets": "3986",
+                        "endColumns": "100",
+                        "endOffsets": "4082"
+                    }
+                },
+                {
+                    "source": "/Users/tawasal/.gradle/caches/transforms-3/b58a21820af0bcb9b78395bace906aa1/transformed/browser-1.4.0/res/values-sw/values-sw.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,169,270,387",
+                        "endColumns": "113,100,116,102",
+                        "endOffsets": "164,265,382,485"
+                    },
+                    "to": {
+                        "startLines": "20,31,32,33",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2316,3187,3288,3405",
+                        "endColumns": "113,100,116,102",
+                        "endOffsets": "2425,3283,3400,3503"
+                    }
+                },
+                {
+                    "source": "/Users/tawasal/.gradle/caches/transforms-3/ebb391495d4bdf1b6ef8fbd901c4131b/transformed/jetified-exoplayer-core-2.18.1/res/values-sw/values-sw.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,118,177,239,306,384,465,552,634",
+                        "endColumns": "62,58,61,66,77,80,86,81,69",
+                        "endOffsets": "113,172,234,301,379,460,547,629,699"
+                    },
+                    "to": {
+                        "startLines": "22,23,24,25,26,27,28,29,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2538,2601,2660,2722,2789,2867,2948,3035,3117",
+                        "endColumns": "62,58,61,66,77,80,86,81,69",
+                        "endOffsets": "2596,2655,2717,2784,2862,2943,3030,3112,3182"
+                    }
+                },
+                {
+                    "source": "/Users/tawasal/.gradle/caches/transforms-3/e809bf899d4763bf8c3d73f07d074d59/transformed/jetified-media2-session-1.2.0/res/values-sw/values-sw.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,163,264,359,497",
+                        "endColumns": "107,100,94,137,143",
+                        "endOffsets": "158,259,354,492,636"
+                    },
+                    "to": {
+                        "startLines": "21,34,35,36,37",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "2430,3508,3609,3704,3842",
+                        "endColumns": "107,100,94,137,143",
+                        "endOffsets": "2533,3604,3699,3837,3981"
+                    }
+                },
+                {
+                    "source": "/Users/tawasal/.gradle/caches/transforms-3/72027ad3480d453902a99b061520c7b9/transformed/jetified-play-services-base-18.1.0/res/values-sw/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,293,445,566,671,830,951,1066,1176,1337,1439,1589,1712,1858,2013,2077,2148",
+                        "endColumns": "99,151,120,104,158,120,114,109,160,101,149,122,145,154,63,70,91",
+                        "endOffsets": "292,444,565,670,829,950,1065,1175,1336,1438,1588,1711,1857,2012,2076,2147,2239"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,315,440,549,712,837,956,1216,1381,1487,1641,1768,1918,2077,2145,2220",
+                        "endColumns": "103,155,124,108,162,124,118,113,164,105,153,126,149,158,67,74,95",
+                        "endOffsets": "154,310,435,544,707,832,951,1065,1376,1482,1636,1763,1913,2072,2140,2215,2311"
+                    }
+                },
+                {
+                    "source": "/Users/tawasal/.gradle/caches/transforms-3/3e09a8102c69aff248d685cdcf529dba/transformed/jetified-play-services-basement-18.1.0/res/values-sw/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "141",
+                        "endOffsets": "336"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1070",
+                        "endColumns": "145",
+                        "endOffsets": "1211"
+                    }
+                }
+            ]
+        }
+    ]
+}

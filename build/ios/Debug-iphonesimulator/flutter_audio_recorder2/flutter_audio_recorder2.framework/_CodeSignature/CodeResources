@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/flutter_audio_recorder2.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DBpdNY8aq6dOM5Xif29Zaj5ebos=
+		QJVLag8zRQPSDP0sYYimLkr+u4w=
 		</data>
 		<key>Modules/flutter_audio_recorder2.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/flutter_audio_recorder2.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1anRJaS8hRv+QmH6GdtdelnnCBU=
+		ZmETPR8wNs/8x1QCe26JWVPFtXw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -112,7 +112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OdO4wsGSc3SsPo5a+IPAB6Vbjx7jdCRzJTPFZMNWRK4=
+			psOJ+Elbi9ZGc/ZlTYxRbTgL2YJpMtUcQwnTlVIOpig=
 			</data>
 		</dict>
 		<key>Modules/flutter_audio_recorder2.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KmKHE5kNb3Vzn7aSxRsnPBcqat3Qnl1PMabNlNznteQ=
+			kP1GAMc9QKGrvKFuzz4NKxWHRMdUR+ZTbGfXuY9AQso=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

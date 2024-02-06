@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">896768465778-4bhi00n9aiuro6tc9lr4djfbcm2mqcr0.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://arabic-speaker-8929f-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">896768465778</string>
+    <string name="google_api_key" translatable="false">AIzaSyABFa3nwwMhXi4lvrtXvp7m5VXkbxzW3fg</string>
+    <string name="google_app_id" translatable="false">1:896768465778:android:359930c04fcfb22e89dbeb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyABFa3nwwMhXi4lvrtXvp7m5VXkbxzW3fg</string>
+    <string name="google_storage_bucket" translatable="false">arabic-speaker-8929f.appspot.com</string>
+    <string name="project_id" translatable="false">arabic-speaker-8929f</string>
+</resources>

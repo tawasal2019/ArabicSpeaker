@@ -22,11 +22,17 @@ class EmailVerificationScreen extends StatefulWidget {
 
 class _EmailVerificationScreenState extends State<EmailVerificationScreen> {
   bool isEmailVerified = false;
+  int _remainingSeconds = 0;
+  Timer? _timer;
+  bool reSead=false;
+  bool _isButtonDisabled = true;
   bool  isSend = false;
   Timer? timer;
   @override
   void initState() {
     // TODO: implement initState
+    _remainingSeconds = 59;
+    _startTimer();
     super.initState();
     timer =
         Timer.periodic(const Duration(seconds: 3), (_) => checkEmailVerified());
@@ -58,6 +64,45 @@ class _EmailVerificationScreenState extends State<EmailVerificationScreen> {
     timer?.cancel();
     super.dispose();
   }
+  void _startTimer() {
+    _timer = Timer.periodic(Duration(seconds: 1), (timer) {
+      setState(() {
+        if (_remainingSeconds > 0) {
+          _remainingSeconds--;
+        } else {
+          setState(() {
+           // reSead=true;
+            _isButtonDisabled = false;
+
+          });
+          _timer?.cancel();
+        }
+      });
+    });
+  }
+  void _onButtonClick() {
+
+    setState(() {
+      _isButtonDisabled = true;
+    });
+    FirebaseAuth.instance.currentUser
+        ?.sendEmailVerification();
+    setState(() {
+      isSend = true;
+    });
+    Future.delayed(const Duration(milliseconds: 3850))
+        .then((value) {
+      setState(() {
+        isSend = false;
+      });
+    });
+
+    Timer(Duration(seconds: 10), () {
+      setState(() {
+        _isButtonDisabled = false;
+      });
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -67,18 +112,28 @@ class _EmailVerificationScreenState extends State<EmailVerificationScreen> {
           ),
           title: const Center(child: Text('التحقق من الايميل')),
           content: Container(
-            width: 120,
-            height: 120,
+            height: 150,
             child: Column(
 
                 children: [
                   Text(
-                    'لقد قمنا بارسال رابط للتحقق من بريدك الالكتروني على ',
+                    'لقد قمنا بارسال رابط التفعيل على بريدك الالكتروني  ',
                     textAlign: TextAlign.center,
                   ),
                   Text(
                     ' ${FirebaseAuth.instance.currentUser!.email} ',
                     textAlign: TextAlign.center,
+                  ),
+
+                  Padding(
+                    padding: const EdgeInsets.only(top: 20.0),
+                    child: Text(
+                      'إذا لم يصلك رابط التفعيل خلال '
+                    ),
+                  ),
+                  Text(
+                    _remainingSeconds.toString(),
+                    style: TextStyle(fontSize: 40),
                   ),
                 ],
               ),
@@ -87,6 +142,25 @@ class _EmailVerificationScreenState extends State<EmailVerificationScreen> {
           actions: <Widget>[
             Column(
               children: [
+                GestureDetector(
+
+                  onTap: _isButtonDisabled ? null : _onButtonClick,
+                  child: Container(
+                    padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                    decoration: BoxDecoration(
+                      color: _isButtonDisabled ? Colors.grey :  Color(0xff339870),
+                      borderRadius: BorderRadius.circular(5),
+                    ),
+                    child:
+                     // reSead==true?const
+                      Text(
+                        'إعادة ارسال',
+                        style: TextStyle(color:_isButtonDisabled ?  Colors.black:Colors.white),
+                      ),//:Container(),
+
+                  ),
+                ),
+                SizedBox(height: 2,),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     backgroundColor: const Color(0xff339870),
@@ -107,190 +181,13 @@ class _EmailVerificationScreenState extends State<EmailVerificationScreen> {
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 25,
-                          ))),),
-
-                TextButton(
-                  onPressed: () async {
-
-                    FirebaseAuth.instance.currentUser
-                        ?.sendEmailVerification();
-                    setState(() {
-                      isSend = true;
-                    });
-                    Future.delayed(const Duration(milliseconds: 3850))
-                        .then((value) {
-                      setState(() {
-                        isSend = false;
-                      });
-                    });
-
-                  },
-                  child: const Text(
-                    //'التسجيل بايميل اخر',
-                    'إعادة الارسال',
-
-                    style: TextStyle(color: Colors.black),
-                  ),
+                          ))),
                 ),
 
               ],
             )
           ],
         );
-        /* SingleChildScrollView(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              const SizedBox(height: 35),
-              const SizedBox(height: 30),
-              const Center(
-                child: Text(
-                  'التحقق من الايميل',
-                  textAlign: TextAlign.center,
-                ),
-              ),
-              const SizedBox(height: 8),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 32.0),
-                child: Center(
-                  child: Text(
-
-                    'لقد قمنا بارسال رابط للتحقق من بريدك الالكتروني على ${FirebaseAuth.instance.currentUser?.email}',
-                    textAlign: TextAlign.center,
-                  ),
-                ),
-              ),
-              const SizedBox(height: 16),
-              const SizedBox(height: 8),
-              const Padding(
-                padding: EdgeInsets
-                    .symmetric(horizontal: 32.0),
-                child: Center(
-                  child: Text(
-                    'التحقق من الايميل ...',
-                    textAlign: TextAlign.center,
-                  ),
-                ),
-              ),
-              const SizedBox(height: 57),
-              Column(
-                children: [
-
-                  Padding(
-                    padding: const EdgeInsets.only(top: 8.0),
-                    child: SizedBox(
-                      height: 50,
-                      width: 170,
-                      child: ElevatedButton(
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: const Color(0xff339870),
-                          shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(11)),
-                        ),
-                        onPressed: () async {
-                          FirebaseAuth.instance.currentUser
-                              ?.sendEmailVerification();
-                          setState(() {
-                            isSend = true;
-                          });
-                          Future.delayed(const Duration(milliseconds: 3850))
-                              .then((value) {
-                            setState(() {
-                              isSend = false;
-                            });
-                          });
-
-                        },
-                        child: Center(
-                            child: const Text("إعادة الارسال",
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 25,
-                                ))),
-                      ),
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(top: 8.0),
-                    child: SizedBox(
-                      height: 50,
-                      width: 170,
-                      child: ElevatedButton(
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: const Color(0xff339870),
-                          shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(11)),
-                        ),
-                        onPressed: () async {
-                          final FirebaseAuth auth = FirebaseAuth.instance;
-                          User? user = auth.currentUser;
-                          if (user != null) {
-                            try {
-                              await user.delete();
-                            } catch (_) {}
-                          }
-                          auth.signOut();
-
-                          SharedPreferences getSignUpOrLogin =
-                          await SharedPreferences.getInstance();
-
-                          getSignUpOrLogin.setBool("getSignUpOrLogin", false);
-                          Navigator.pushAndRemoveUntil(
-                              context,
-                              MaterialPageRoute(builder: (context) => const Signup()),
-                                  (route) => false);
-
-                        },
-                        child: Center(
-                            child: const Text("موافق",
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 25,
-                                ))),
-                      ),
-                    ),
-                  ),
-
-                ],
-              )
-              /* Padding(
-                      padding: const EdgeInsets
-                          .symmetric(horizontal: 32.0),
-                      child: ElevatedButton(
-                        child: const Text('اعادة ارسال'),
-                        onPressed: () {
-                          try {
-                            FirebaseAuth.instance.currentUser
-                                ?.sendEmailVerification();
-                          } catch (e) {
-                            debugPrint('$e');
-                          }
-                        },
-                      ),
-                    ),*/
-
-                /*  Padding(
-                    padding: const EdgeInsets
-                        .symmetric(horizontal: 32.0),
-                    child: ElevatedButton(
-                      child: const Text('الغاء'),
-                      onPressed: () {
-                        try {
-                          Navigator.pushReplacement(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => const Signup()));
-                        } catch (e) {
-                          debugPrint('$e');
-                        }
-                      },
-                    ),
-                  ),*/
-
-
-            ],
-          ),
-        ),*/
 
 
   }

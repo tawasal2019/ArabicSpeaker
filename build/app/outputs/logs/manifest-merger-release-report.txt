@@ -1,0 +1,971 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:12:5-45:19
+MERGED from [:firebase_database] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_database] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-48:19
+MERGED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-48:19
+MERGED from [:firebase_core] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:image_picker_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:image_picker_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:url_launcher_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-14:19
+MERGED from [:share_plus] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:share_plus] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/cb379b40bad4ced30a702678ec48846b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/cb379b40bad4ced30a702678ec48846b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/17013837bb8f88c19734a4e85f293108/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/17013837bb8f88c19734a4e85f293108/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/tawasal/.gradle/caches/transforms-3/ab98b65107e4175775fccc29bb468ed7/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/tawasal/.gradle/caches/transforms-3/ab98b65107e4175775fccc29bb468ed7/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/tawasal/.gradle/caches/transforms-3/7c95722c257821ef99e36387cc10a3cb/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/tawasal/.gradle/caches/transforms-3/7c95722c257821ef99e36387cc10a3cb/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/tawasal/.gradle/caches/transforms-3/d7bed40f418ad162aba9d5cab903f56e/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/tawasal/.gradle/caches/transforms-3/d7bed40f418ad162aba9d5cab903f56e/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/e544e37b35e3e5b55122d54deac36954/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/e544e37b35e3e5b55122d54deac36954/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/tawasal/.gradle/caches/transforms-3/1fbebcf6421e3a38890f72148f531ba4/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/tawasal/.gradle/caches/transforms-3/1fbebcf6421e3a38890f72148f531ba4/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/tawasal/.gradle/caches/transforms-3/ba80453c316bfd72ee9114751f8fd6e2/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/tawasal/.gradle/caches/transforms-3/ba80453c316bfd72ee9114751f8fd6e2/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/tawasal/.gradle/caches/transforms-3/0d5ba9d92b990d2f50cea778e86a0389/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/tawasal/.gradle/caches/transforms-3/0d5ba9d92b990d2f50cea778e86a0389/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/tawasal/.gradle/caches/transforms-3/72027ad3480d453902a99b061520c7b9/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/tawasal/.gradle/caches/transforms-3/72027ad3480d453902a99b061520c7b9/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/tawasal/.gradle/caches/transforms-3/662e79e6bce2f676abf833977bbd8e3c/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/tawasal/.gradle/caches/transforms-3/662e79e6bce2f676abf833977bbd8e3c/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/tawasal/.gradle/caches/transforms-3/78fd3dda69f7bccbaca7db13a7c540db/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/tawasal/.gradle/caches/transforms-3/78fd3dda69f7bccbaca7db13a7c540db/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/tawasal/.gradle/caches/transforms-3/ebec39fd21f6ee91a3fdbe797b881854/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/tawasal/.gradle/caches/transforms-3/ebec39fd21f6ee91a3fdbe797b881854/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/tawasal/.gradle/caches/transforms-3/3e09a8102c69aff248d685cdcf529dba/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/tawasal/.gradle/caches/transforms-3/3e09a8102c69aff248d685cdcf529dba/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/tawasal/.gradle/caches/transforms-3/e90198680a695c530aad241d8e885711/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/tawasal/.gradle/caches/transforms-3/e90198680a695c530aad241d8e885711/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tawasal/.gradle/caches/transforms-3/0453af690d04962844224339a18f9530/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tawasal/.gradle/caches/transforms-3/0453af690d04962844224339a18f9530/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/tawasal/.gradle/caches/transforms-3/75b4b194ff391a9c8f1c5dfa8124c319/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/tawasal/.gradle/caches/transforms-3/75b4b194ff391a9c8f1c5dfa8124c319/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/9221a11ca92b63c9c8b4ffd5abe92424/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/9221a11ca92b63c9c8b4ffd5abe92424/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/78e7e8738974bbfe91114104700b24df/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/78e7e8738974bbfe91114104700b24df/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:13:9-45
+	android:icon
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:15:9-43
+	android:name
+		INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:14:9-42
+manifest
+ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:1:1-46:12
+MERGED from [:firebase_database] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:cloud_firestore] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_auth] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_storage] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-50:12
+MERGED from [:firebase_core] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:image_picker_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:audioplayers_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/audioplayers_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:sqflite] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/sqflite/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:url_launcher_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-16:12
+MERGED from [:path_provider_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_audio_recorder2] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/flutter_audio_recorder2/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:just_audio] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/just_audio/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:shared_preferences_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:permission_handler_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:share_plus] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:volume_controller] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/volume_controller/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:package_info_plus] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/package_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_tts] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/flutter_tts/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:audio_session] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/cb379b40bad4ced30a702678ec48846b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/17013837bb8f88c19734a4e85f293108/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:15:1-38:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/tawasal/.gradle/caches/transforms-3/67423f0c1c6b1676d66b292257a3f7a8/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:17:1-66:12
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/tawasal/.gradle/caches/transforms-3/ab98b65107e4175775fccc29bb468ed7/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/tawasal/.gradle/caches/transforms-3/7c95722c257821ef99e36387cc10a3cb/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/tawasal/.gradle/caches/transforms-3/d7bed40f418ad162aba9d5cab903f56e/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/e544e37b35e3e5b55122d54deac36954/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/tawasal/.gradle/caches/transforms-3/2ec0f347427bf929a4c219cb02995032/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/tawasal/.gradle/caches/transforms-3/1fbebcf6421e3a38890f72148f531ba4/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/tawasal/.gradle/caches/transforms-3/8363ddd9db6cc3e0e78e1cd086a2a697/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/tawasal/.gradle/caches/transforms-3/ba80453c316bfd72ee9114751f8fd6e2/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/tawasal/.gradle/caches/transforms-3/e9dc8c5e781c9d1b91cb870c46ade85a/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/tawasal/.gradle/caches/transforms-3/0d5ba9d92b990d2f50cea778e86a0389/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/tawasal/.gradle/caches/transforms-3/0520d40ab461cb79e399b8e41611c6e0/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/tawasal/.gradle/caches/transforms-3/72027ad3480d453902a99b061520c7b9/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/tawasal/.gradle/caches/transforms-3/f7e9e7e703011aedb266871eca8f958f/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/tawasal/.gradle/caches/transforms-3/662e79e6bce2f676abf833977bbd8e3c/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/tawasal/.gradle/caches/transforms-3/78fd3dda69f7bccbaca7db13a7c540db/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/tawasal/.gradle/caches/transforms-3/ebec39fd21f6ee91a3fdbe797b881854/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/tawasal/.gradle/caches/transforms-3/3e09a8102c69aff248d685cdcf529dba/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/tawasal/.gradle/caches/transforms-3/2ab6a40a0085f1fe7156d35d3b638b03/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.1] /Users/tawasal/.gradle/caches/transforms-3/a695ff1131a3364efc3a0b88483a741b/transformed/jetified-activity-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/e545cc2508110eee75de48554cd9ada5/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/ccc24d11ef2d5a7382959d58d32d6b0f/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/tawasal/.gradle/caches/transforms-3/e56d541fd13c1e7890fd71a3634a9801/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/tawasal/.gradle/caches/transforms-3/c7b43ab6dfbeb353fa8988651fb7b6ee/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/tawasal/.gradle/caches/transforms-3/e90198680a695c530aad241d8e885711/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/99a9dc47305e175a97c1ef20b6e66b74/transformed/jetified-exoplayer-dash-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/78e07eb9a70eccfa48beea4ecbaa88b4/transformed/jetified-exoplayer-hls-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/ca9322a9c3f7efb563ab596ff3327deb/transformed/jetified-exoplayer-smoothstreaming-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/ebb391495d4bdf1b6ef8fbd901c4131b/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.media2:media2-session:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/e809bf899d4763bf8c3d73f07d074d59/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.media2:media2-common:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/efae80a22905965da5d33c7658dac8cf/transformed/jetified-media2-common-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/07d7b6dea34216a7fc0c6ee1745585b7/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/tawasal/.gradle/caches/transforms-3/b58a21820af0bcb9b78395bace906aa1/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/9fa19f44dd6fed65844c5dfc9e60253f/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.4.1] /Users/tawasal/.gradle/caches/transforms-3/99ee49300b2cfe386df751106735c007/transformed/media-1.4.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/37af8383220bace9d54f51782fa70e21/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/tawasal/.gradle/caches/transforms-3/11932f2258974a1e0606a28227174588/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/tawasal/.gradle/caches/transforms-3/c2075c1ff3bfacb9c1e27a8833422633/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/af6b755aff340842c5ee3e22976e3c9a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/88be57bbdc99131ab18b09d85d05d1a2/transformed/jetified-exoplayer-datasource-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/445c675339f39d28fb21b1b3d9c9b608/transformed/jetified-exoplayer-extractor-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/b240f7d7e52d18ea13684f731ebc3e2f/transformed/jetified-exoplayer-decoder-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/065f44ae6b595d8037b239a0e5bfa508/transformed/jetified-exoplayer-database-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/97c9839d48761bf0c0966843c0ae58a9/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tawasal/.gradle/caches/transforms-3/0453af690d04962844224339a18f9530/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/tawasal/.gradle/caches/transforms-3/9619db26928d605304ba40f0326161b5/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/d9d10584bc37af0c5b2e59fd60e32697/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/tawasal/.gradle/caches/transforms-3/7838e1994299f991d15475e00c98bc5f/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/tawasal/.gradle/caches/transforms-3/75b4b194ff391a9c8f1c5dfa8124c319/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/9221a11ca92b63c9c8b4ffd5abe92424/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/78e7e8738974bbfe91114104700b24df/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/tawasal/.gradle/caches/transforms-3/2dfe9e5db8d14f347a137ce6585eeecd/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/tawasal/.gradle/caches/transforms-3/dd5bfbce7934a939cd8367fc3030eb87/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/tawasal/.gradle/caches/transforms-3/25c40e056e9c568dc6d0357274eac57e/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/tawasal/.gradle/caches/transforms-3/81fb2f01b9895f4e6a053b95bc0fb981/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tawasal/.gradle/caches/transforms-3/44a5baa3278dbe26aa67fe705d83e7ca/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/314715efe170bb3232d268983705b7c1/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/5c2782417d8f86786b2aa1cc057e5652/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/a2d35d492cc0e37439b6d3ada48c51f2/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/tawasal/.gradle/caches/transforms-3/83e694eafbc8c1bdb4160af5a00c155a/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/tawasal/.gradle/caches/transforms-3/641f3c889751f6715b7f3187e5aa0e11/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/tawasal/.gradle/caches/transforms-3/6dc5a9e90147f1bdf74b88c8ff6e0f46/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:1:1-46:12
+	package
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:2:5-40
+		INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:1:1-46:12
+		INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:1:1-46:12
+		INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:3:5-70
+	android:name
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:3:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:4:22-78
+uses-permission#android.FOREGROUND_SERVICE
+ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:5:22-63
+uses-permission#android.permission.INTERNET
+ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/cb379b40bad4ced30a702678ec48846b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/cb379b40bad4ced30a702678ec48846b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/17013837bb8f88c19734a4e85f293108/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/17013837bb8f88c19734a4e85f293108/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/tawasal/.gradle/caches/transforms-3/ab98b65107e4175775fccc29bb468ed7/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/tawasal/.gradle/caches/transforms-3/ab98b65107e4175775fccc29bb468ed7/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/tawasal/.gradle/caches/transforms-3/2ec0f347427bf929a4c219cb02995032/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/tawasal/.gradle/caches/transforms-3/2ec0f347427bf929a4c219cb02995032/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/tawasal/.gradle/caches/transforms-3/e9dc8c5e781c9d1b91cb870c46ade85a/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/tawasal/.gradle/caches/transforms-3/e9dc8c5e781c9d1b91cb870c46ade85a/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/9221a11ca92b63c9c8b4ffd5abe92424/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/9221a11ca92b63c9c8b4ffd5abe92424/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:6:22-64
+queries
+ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:7:5-11:15
+MERGED from [androidx.media2:media2-session:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/e809bf899d4763bf8c3d73f07d074d59/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:24:5-34:15
+MERGED from [androidx.media2:media2-session:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/e809bf899d4763bf8c3d73f07d074d59/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:24:5-34:15
+MERGED from [androidx.media:media:1.4.1] /Users/tawasal/.gradle/caches/transforms-3/99ee49300b2cfe386df751106735c007/transformed/media-1.4.1/AndroidManifest.xml:24:5-28:15
+MERGED from [androidx.media:media:1.4.1] /Users/tawasal/.gradle/caches/transforms-3/99ee49300b2cfe386df751106735c007/transformed/media-1.4.1/AndroidManifest.xml:24:5-28:15
+intent#action:name:android.intent.action.TTS_SERVICE
+ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:8:9-10:18
+action#android.intent.action.TTS_SERVICE
+ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:9:13-72
+	android:name
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:9:21-69
+uses-sdk
+INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_database] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_database] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:audioplayers_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/audioplayers_android/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:audioplayers_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/audioplayers_android/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:sqflite] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/sqflite/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/sqflite/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_audio_recorder2] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/flutter_audio_recorder2/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_audio_recorder2] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/flutter_audio_recorder2/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:just_audio] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/just_audio/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:just_audio] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/just_audio/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:share_plus] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:share_plus] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:volume_controller] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/volume_controller/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:volume_controller] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/volume_controller/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/package_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/package_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_tts] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/flutter_tts/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_tts] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/flutter_tts/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:audio_session] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:audio_session] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/cb379b40bad4ced30a702678ec48846b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/cb379b40bad4ced30a702678ec48846b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/17013837bb8f88c19734a4e85f293108/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/17013837bb8f88c19734a4e85f293108/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/tawasal/.gradle/caches/transforms-3/67423f0c1c6b1676d66b292257a3f7a8/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/tawasal/.gradle/caches/transforms-3/67423f0c1c6b1676d66b292257a3f7a8/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/tawasal/.gradle/caches/transforms-3/ab98b65107e4175775fccc29bb468ed7/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/tawasal/.gradle/caches/transforms-3/ab98b65107e4175775fccc29bb468ed7/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/tawasal/.gradle/caches/transforms-3/7c95722c257821ef99e36387cc10a3cb/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/tawasal/.gradle/caches/transforms-3/7c95722c257821ef99e36387cc10a3cb/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/tawasal/.gradle/caches/transforms-3/d7bed40f418ad162aba9d5cab903f56e/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/tawasal/.gradle/caches/transforms-3/d7bed40f418ad162aba9d5cab903f56e/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/e544e37b35e3e5b55122d54deac36954/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/e544e37b35e3e5b55122d54deac36954/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/tawasal/.gradle/caches/transforms-3/2ec0f347427bf929a4c219cb02995032/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/tawasal/.gradle/caches/transforms-3/2ec0f347427bf929a4c219cb02995032/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/tawasal/.gradle/caches/transforms-3/1fbebcf6421e3a38890f72148f531ba4/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/tawasal/.gradle/caches/transforms-3/1fbebcf6421e3a38890f72148f531ba4/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/tawasal/.gradle/caches/transforms-3/8363ddd9db6cc3e0e78e1cd086a2a697/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/tawasal/.gradle/caches/transforms-3/8363ddd9db6cc3e0e78e1cd086a2a697/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/tawasal/.gradle/caches/transforms-3/ba80453c316bfd72ee9114751f8fd6e2/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/tawasal/.gradle/caches/transforms-3/ba80453c316bfd72ee9114751f8fd6e2/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/tawasal/.gradle/caches/transforms-3/e9dc8c5e781c9d1b91cb870c46ade85a/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/tawasal/.gradle/caches/transforms-3/e9dc8c5e781c9d1b91cb870c46ade85a/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/tawasal/.gradle/caches/transforms-3/0d5ba9d92b990d2f50cea778e86a0389/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/tawasal/.gradle/caches/transforms-3/0d5ba9d92b990d2f50cea778e86a0389/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/tawasal/.gradle/caches/transforms-3/0520d40ab461cb79e399b8e41611c6e0/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/tawasal/.gradle/caches/transforms-3/0520d40ab461cb79e399b8e41611c6e0/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/tawasal/.gradle/caches/transforms-3/72027ad3480d453902a99b061520c7b9/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/tawasal/.gradle/caches/transforms-3/72027ad3480d453902a99b061520c7b9/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/tawasal/.gradle/caches/transforms-3/f7e9e7e703011aedb266871eca8f958f/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/tawasal/.gradle/caches/transforms-3/f7e9e7e703011aedb266871eca8f958f/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/tawasal/.gradle/caches/transforms-3/662e79e6bce2f676abf833977bbd8e3c/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/tawasal/.gradle/caches/transforms-3/662e79e6bce2f676abf833977bbd8e3c/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/tawasal/.gradle/caches/transforms-3/78fd3dda69f7bccbaca7db13a7c540db/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/tawasal/.gradle/caches/transforms-3/78fd3dda69f7bccbaca7db13a7c540db/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/tawasal/.gradle/caches/transforms-3/ebec39fd21f6ee91a3fdbe797b881854/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/tawasal/.gradle/caches/transforms-3/ebec39fd21f6ee91a3fdbe797b881854/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/tawasal/.gradle/caches/transforms-3/3e09a8102c69aff248d685cdcf529dba/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/tawasal/.gradle/caches/transforms-3/3e09a8102c69aff248d685cdcf529dba/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/tawasal/.gradle/caches/transforms-3/2ab6a40a0085f1fe7156d35d3b638b03/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/tawasal/.gradle/caches/transforms-3/2ab6a40a0085f1fe7156d35d3b638b03/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.1] /Users/tawasal/.gradle/caches/transforms-3/a695ff1131a3364efc3a0b88483a741b/transformed/jetified-activity-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.1] /Users/tawasal/.gradle/caches/transforms-3/a695ff1131a3364efc3a0b88483a741b/transformed/jetified-activity-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/e545cc2508110eee75de48554cd9ada5/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/e545cc2508110eee75de48554cd9ada5/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/ccc24d11ef2d5a7382959d58d32d6b0f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/ccc24d11ef2d5a7382959d58d32d6b0f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/tawasal/.gradle/caches/transforms-3/e56d541fd13c1e7890fd71a3634a9801/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/tawasal/.gradle/caches/transforms-3/e56d541fd13c1e7890fd71a3634a9801/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/tawasal/.gradle/caches/transforms-3/c7b43ab6dfbeb353fa8988651fb7b6ee/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/tawasal/.gradle/caches/transforms-3/c7b43ab6dfbeb353fa8988651fb7b6ee/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/tawasal/.gradle/caches/transforms-3/e90198680a695c530aad241d8e885711/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/tawasal/.gradle/caches/transforms-3/e90198680a695c530aad241d8e885711/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/99a9dc47305e175a97c1ef20b6e66b74/transformed/jetified-exoplayer-dash-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/99a9dc47305e175a97c1ef20b6e66b74/transformed/jetified-exoplayer-dash-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/78e07eb9a70eccfa48beea4ecbaa88b4/transformed/jetified-exoplayer-hls-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/78e07eb9a70eccfa48beea4ecbaa88b4/transformed/jetified-exoplayer-hls-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/ca9322a9c3f7efb563ab596ff3327deb/transformed/jetified-exoplayer-smoothstreaming-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/ca9322a9c3f7efb563ab596ff3327deb/transformed/jetified-exoplayer-smoothstreaming-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/ebb391495d4bdf1b6ef8fbd901c4131b/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/ebb391495d4bdf1b6ef8fbd901c4131b/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-session:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/e809bf899d4763bf8c3d73f07d074d59/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-session:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/e809bf899d4763bf8c3d73f07d074d59/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-common:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/efae80a22905965da5d33c7658dac8cf/transformed/jetified-media2-common-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-common:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/efae80a22905965da5d33c7658dac8cf/transformed/jetified-media2-common-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/07d7b6dea34216a7fc0c6ee1745585b7/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/07d7b6dea34216a7fc0c6ee1745585b7/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.4.0] /Users/tawasal/.gradle/caches/transforms-3/b58a21820af0bcb9b78395bace906aa1/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/tawasal/.gradle/caches/transforms-3/b58a21820af0bcb9b78395bace906aa1/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/9fa19f44dd6fed65844c5dfc9e60253f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/9fa19f44dd6fed65844c5dfc9e60253f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.4.1] /Users/tawasal/.gradle/caches/transforms-3/99ee49300b2cfe386df751106735c007/transformed/media-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.4.1] /Users/tawasal/.gradle/caches/transforms-3/99ee49300b2cfe386df751106735c007/transformed/media-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/37af8383220bace9d54f51782fa70e21/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/37af8383220bace9d54f51782fa70e21/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/tawasal/.gradle/caches/transforms-3/11932f2258974a1e0606a28227174588/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/tawasal/.gradle/caches/transforms-3/11932f2258974a1e0606a28227174588/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/tawasal/.gradle/caches/transforms-3/c2075c1ff3bfacb9c1e27a8833422633/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/tawasal/.gradle/caches/transforms-3/c2075c1ff3bfacb9c1e27a8833422633/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/af6b755aff340842c5ee3e22976e3c9a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/af6b755aff340842c5ee3e22976e3c9a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/88be57bbdc99131ab18b09d85d05d1a2/transformed/jetified-exoplayer-datasource-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/88be57bbdc99131ab18b09d85d05d1a2/transformed/jetified-exoplayer-datasource-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/445c675339f39d28fb21b1b3d9c9b608/transformed/jetified-exoplayer-extractor-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/445c675339f39d28fb21b1b3d9c9b608/transformed/jetified-exoplayer-extractor-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/b240f7d7e52d18ea13684f731ebc3e2f/transformed/jetified-exoplayer-decoder-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/b240f7d7e52d18ea13684f731ebc3e2f/transformed/jetified-exoplayer-decoder-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/065f44ae6b595d8037b239a0e5bfa508/transformed/jetified-exoplayer-database-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/065f44ae6b595d8037b239a0e5bfa508/transformed/jetified-exoplayer-database-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/97c9839d48761bf0c0966843c0ae58a9/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/97c9839d48761bf0c0966843c0ae58a9/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tawasal/.gradle/caches/transforms-3/0453af690d04962844224339a18f9530/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tawasal/.gradle/caches/transforms-3/0453af690d04962844224339a18f9530/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/tawasal/.gradle/caches/transforms-3/9619db26928d605304ba40f0326161b5/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/tawasal/.gradle/caches/transforms-3/9619db26928d605304ba40f0326161b5/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/d9d10584bc37af0c5b2e59fd60e32697/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/d9d10584bc37af0c5b2e59fd60e32697/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/tawasal/.gradle/caches/transforms-3/7838e1994299f991d15475e00c98bc5f/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/tawasal/.gradle/caches/transforms-3/7838e1994299f991d15475e00c98bc5f/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/tawasal/.gradle/caches/transforms-3/75b4b194ff391a9c8f1c5dfa8124c319/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/tawasal/.gradle/caches/transforms-3/75b4b194ff391a9c8f1c5dfa8124c319/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/9221a11ca92b63c9c8b4ffd5abe92424/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/9221a11ca92b63c9c8b4ffd5abe92424/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/78e7e8738974bbfe91114104700b24df/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/78e7e8738974bbfe91114104700b24df/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/tawasal/.gradle/caches/transforms-3/2dfe9e5db8d14f347a137ce6585eeecd/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/tawasal/.gradle/caches/transforms-3/2dfe9e5db8d14f347a137ce6585eeecd/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/tawasal/.gradle/caches/transforms-3/dd5bfbce7934a939cd8367fc3030eb87/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/tawasal/.gradle/caches/transforms-3/dd5bfbce7934a939cd8367fc3030eb87/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/tawasal/.gradle/caches/transforms-3/25c40e056e9c568dc6d0357274eac57e/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/tawasal/.gradle/caches/transforms-3/25c40e056e9c568dc6d0357274eac57e/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/tawasal/.gradle/caches/transforms-3/81fb2f01b9895f4e6a053b95bc0fb981/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/tawasal/.gradle/caches/transforms-3/81fb2f01b9895f4e6a053b95bc0fb981/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tawasal/.gradle/caches/transforms-3/44a5baa3278dbe26aa67fe705d83e7ca/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tawasal/.gradle/caches/transforms-3/44a5baa3278dbe26aa67fe705d83e7ca/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/314715efe170bb3232d268983705b7c1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/314715efe170bb3232d268983705b7c1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/5c2782417d8f86786b2aa1cc057e5652/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/5c2782417d8f86786b2aa1cc057e5652/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/a2d35d492cc0e37439b6d3ada48c51f2/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tawasal/.gradle/caches/transforms-3/a2d35d492cc0e37439b6d3ada48c51f2/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/tawasal/.gradle/caches/transforms-3/83e694eafbc8c1bdb4160af5a00c155a/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/tawasal/.gradle/caches/transforms-3/83e694eafbc8c1bdb4160af5a00c155a/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/tawasal/.gradle/caches/transforms-3/641f3c889751f6715b7f3187e5aa0e11/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/tawasal/.gradle/caches/transforms-3/641f3c889751f6715b7f3187e5aa0e11/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/tawasal/.gradle/caches/transforms-3/6dc5a9e90147f1bdf74b88c8ff6e0f46/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/tawasal/.gradle/caches/transforms-3/6dc5a9e90147f1bdf74b88c8ff6e0f46/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:23:9-61
+	android:targetSdkVersion
+		INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:16:9-18:57
+	android:resource
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:18:13-54
+	android:name
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:17:13-83
+activity#com.example.arabicspeaker.MainActivity
+ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:19:9-39:20
+	android:launchMode
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:22:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:25:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:26:13-55
+	android:exported
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:21:13-36
+	android:configChanges
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:24:13-163
+	android:theme
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:23:13-47
+	android:name
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:20:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:31:13-34:19
+	android:resource
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:33:17-54
+	android:name
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:32:17-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:35:13-38:29
+action#android.intent.action.MAIN
+ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:36:17-68
+	android:name
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:37:17-76
+	android:name
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:37:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:42:9-44:33
+	android:value
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:44:13-30
+	android:name
+		ADDED from /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/android/app/src/main/AndroidManifest.xml:43:13-44
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_database] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:cloud_firestore] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:cloud_firestore] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-41:19
+MERGED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-41:19
+MERGED from [:firebase_core] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/cb379b40bad4ced30a702678ec48846b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/cb379b40bad4ced30a702678ec48846b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/17013837bb8f88c19734a4e85f293108/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/17013837bb8f88c19734a4e85f293108/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/tawasal/.gradle/caches/transforms-3/ab98b65107e4175775fccc29bb468ed7/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/tawasal/.gradle/caches/transforms-3/ab98b65107e4175775fccc29bb468ed7/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/tawasal/.gradle/caches/transforms-3/d7bed40f418ad162aba9d5cab903f56e/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/tawasal/.gradle/caches/transforms-3/d7bed40f418ad162aba9d5cab903f56e/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/e544e37b35e3e5b55122d54deac36954/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/e544e37b35e3e5b55122d54deac36954/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/tawasal/.gradle/caches/transforms-3/75b4b194ff391a9c8f1c5dfa8124c319/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/tawasal/.gradle/caches/transforms-3/75b4b194ff391a9c8f1c5dfa8124c319/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:16:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [:firebase_database] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_database] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_database] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_database] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-127
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_auth] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_storage] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_storage] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-126
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/tawasal/.gradle/caches/transforms-3/e9dc8c5e781c9d1b91cb870c46ade85a/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/tawasal/.gradle/caches/transforms-3/e9dc8c5e781c9d1b91cb870c46ade85a/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/cb379b40bad4ced30a702678ec48846b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/cb379b40bad4ced30a702678ec48846b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/17013837bb8f88c19734a4e85f293108/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/17013837bb8f88c19734a4e85f293108/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/tawasal/.gradle/caches/transforms-3/ab98b65107e4175775fccc29bb468ed7/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/tawasal/.gradle/caches/transforms-3/ab98b65107e4175775fccc29bb468ed7/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/tawasal/.gradle/caches/transforms-3/2ec0f347427bf929a4c219cb02995032/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/tawasal/.gradle/caches/transforms-3/2ec0f347427bf929a4c219cb02995032/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/tawasal/.gradle/caches/transforms-3/e9dc8c5e781c9d1b91cb870c46ade85a/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/tawasal/.gradle/caches/transforms-3/e9dc8c5e781c9d1b91cb870c46ade85a/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/ebb391495d4bdf1b6ef8fbd901c4131b/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/ebb391495d4bdf1b6ef8fbd901c4131b/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/97c9839d48761bf0c0966843c0ae58a9/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /Users/tawasal/.gradle/caches/transforms-3/97c9839d48761bf0c0966843c0ae58a9/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/9221a11ca92b63c9c8b4ffd5abe92424/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/9221a11ca92b63c9c8b4ffd5abe92424/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/78e7e8738974bbfe91114104700b24df/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/78e7e8738974bbfe91114104700b24df/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/tawasal/.gradle/caches/transforms-3/641f3c889751f6715b7f3187e5aa0e11/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/tawasal/.gradle/caches/transforms-3/641f3c889751f6715b7f3187e5aa0e11/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:23:5-77
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService
+ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+	android:exported
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+	android:permission
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+	android:name
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
+ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+	android:exported
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+	android:name
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+receiver#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver
+ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+	android:exported
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+	android:name
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+	android:name
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+	android:value
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+	android:name
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+provider#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+	android:authorities
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+	android:exported
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+	android:initOrder
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+	android:name
+		ADDED from [:firebase_messaging] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+	android:exported
+		ADDED from [:image_picker_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:image_picker_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+	android:resource
+		ADDED from [:image_picker_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+	android:name
+		ADDED from [:image_picker_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+provider#dev.fluttercommunity.plus.share.ShareFileProvider
+ADDED from [:share_plus] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:share_plus] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:share_plus] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+	android:exported
+		ADDED from [:share_plus] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:share_plus] /Users/tawasal/Desktop/Tawasal_Arabic_speaker/ArabicSpeaker/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-77
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.9.1] /Users/tawasal/.gradle/caches/transforms-3/eb2fe2e01e51652975f928d6d9da9e4a/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/cb379b40bad4ced30a702678ec48846b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/cb379b40bad4ced30a702678ec48846b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/cb379b40bad4ced30a702678ec48846b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:31:17-118
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/cb379b40bad4ced30a702678ec48846b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/cb379b40bad4ced30a702678ec48846b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/cb379b40bad4ced30a702678ec48846b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:34:17-107
+meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/17013837bb8f88c19734a4e85f293108/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/17013837bb8f88c19734a4e85f293108/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/17013837bb8f88c19734a4e85f293108/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:30:17-120
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/17013837bb8f88c19734a4e85f293108/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/17013837bb8f88c19734a4e85f293108/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/tawasal/.gradle/caches/transforms-3/17013837bb8f88c19734a4e85f293108/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:33:17-109
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/tawasal/.gradle/caches/transforms-3/e9dc8c5e781c9d1b91cb870c46ade85a/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/tawasal/.gradle/caches/transforms-3/e9dc8c5e781c9d1b91cb870c46ade85a/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/tawasal/.gradle/caches/transforms-3/72fcbe64dbb2a4d1727202a6b91c6421/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/tawasal/.gradle/caches/transforms-3/e63d2f19bf68df067949fd27cd2a3fd9/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:70:17-109
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:29:9-40:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:32:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:30:13-78
+meta-data#com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:37:13-39:40
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:39:17-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:38:17-92
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:46:9-53:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:49:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:48:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:47:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:57:13-59:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:58:17-122
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:60:13-62:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:62:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/tawasal/.gradle/caches/transforms-3/afae0feac6fcf9a73137c5751bfa867c/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:61:17-119
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/tawasal/.gradle/caches/transforms-3/ab98b65107e4175775fccc29bb468ed7/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/tawasal/.gradle/caches/transforms-3/ab98b65107e4175775fccc29bb468ed7/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/tawasal/.gradle/caches/transforms-3/ab98b65107e4175775fccc29bb468ed7/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/tawasal/.gradle/caches/transforms-3/ab98b65107e4175775fccc29bb468ed7/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/tawasal/.gradle/caches/transforms-3/ab98b65107e4175775fccc29bb468ed7/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/tawasal/.gradle/caches/transforms-3/ab98b65107e4175775fccc29bb468ed7/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/tawasal/.gradle/caches/transforms-3/d7bed40f418ad162aba9d5cab903f56e/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/tawasal/.gradle/caches/transforms-3/d7bed40f418ad162aba9d5cab903f56e/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/tawasal/.gradle/caches/transforms-3/d7bed40f418ad162aba9d5cab903f56e/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:26:17-120
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/tawasal/.gradle/caches/transforms-3/d7bed40f418ad162aba9d5cab903f56e/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/tawasal/.gradle/caches/transforms-3/d7bed40f418ad162aba9d5cab903f56e/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/tawasal/.gradle/caches/transforms-3/d7bed40f418ad162aba9d5cab903f56e/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:29:17-117
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/e544e37b35e3e5b55122d54deac36954/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/e544e37b35e3e5b55122d54deac36954/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/e544e37b35e3e5b55122d54deac36954/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/tawasal/.gradle/caches/transforms-3/da30b0b9104682f6aff491163243490a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/tawasal/.gradle/caches/transforms-3/72027ad3480d453902a99b061520c7b9/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/tawasal/.gradle/caches/transforms-3/72027ad3480d453902a99b061520c7b9/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/tawasal/.gradle/caches/transforms-3/72027ad3480d453902a99b061520c7b9/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/tawasal/.gradle/caches/transforms-3/72027ad3480d453902a99b061520c7b9/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/tawasal/.gradle/caches/transforms-3/3e09a8102c69aff248d685cdcf529dba/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/tawasal/.gradle/caches/transforms-3/3e09a8102c69aff248d685cdcf529dba/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/tawasal/.gradle/caches/transforms-3/3e09a8102c69aff248d685cdcf529dba/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/tawasal/.gradle/caches/transforms-3/e90198680a695c530aad241d8e885711/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/tawasal/.gradle/caches/transforms-3/e90198680a695c530aad241d8e885711/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/tawasal/.gradle/caches/transforms-3/e90198680a695c530aad241d8e885711/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/tawasal/.gradle/caches/transforms-3/e90198680a695c530aad241d8e885711/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/tawasal/.gradle/caches/transforms-3/e90198680a695c530aad241d8e885711/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/tawasal/.gradle/caches/transforms-3/e90198680a695c530aad241d8e885711/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+intent#action:name:android.media.browse.MediaBrowserService
+ADDED from [androidx.media2:media2-session:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/e809bf899d4763bf8c3d73f07d074d59/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:25:9-27:18
+action#android.media.browse.MediaBrowserService
+ADDED from [androidx.media2:media2-session:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/e809bf899d4763bf8c3d73f07d074d59/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:26:13-79
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/e809bf899d4763bf8c3d73f07d074d59/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:26:21-76
+intent#action:name:androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/e809bf899d4763bf8c3d73f07d074d59/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:28:9-30:18
+action#androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/e809bf899d4763bf8c3d73f07d074d59/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:29:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/e809bf899d4763bf8c3d73f07d074d59/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:29:21-79
+intent#action:name:androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/e809bf899d4763bf8c3d73f07d074d59/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:31:9-33:18
+action#androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/e809bf899d4763bf8c3d73f07d074d59/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.0] /Users/tawasal/.gradle/caches/transforms-3/e809bf899d4763bf8c3d73f07d074d59/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:21-79
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.ttsarabic.app.ttsaarabicapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.ttsarabic.app.ttsaarabicapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/tawasal/.gradle/caches/transforms-3/b87b9be5c232f322cf377f0ffb9e4a6e/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/tawasal/.gradle/caches/transforms-3/75b4b194ff391a9c8f1c5dfa8124c319/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/tawasal/.gradle/caches/transforms-3/75b4b194ff391a9c8f1c5dfa8124c319/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/tawasal/.gradle/caches/transforms-3/75b4b194ff391a9c8f1c5dfa8124c319/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/9221a11ca92b63c9c8b4ffd5abe92424/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/78e7e8738974bbfe91114104700b24df/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/78e7e8738974bbfe91114104700b24df/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/9221a11ca92b63c9c8b4ffd5abe92424/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/9221a11ca92b63c9c8b4ffd5abe92424/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/9221a11ca92b63c9c8b4ffd5abe92424/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/9221a11ca92b63c9c8b4ffd5abe92424/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/9221a11ca92b63c9c8b4ffd5abe92424/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/78e7e8738974bbfe91114104700b24df/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/78e7e8738974bbfe91114104700b24df/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/78e7e8738974bbfe91114104700b24df/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/78e7e8738974bbfe91114104700b24df/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/78e7e8738974bbfe91114104700b24df/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/78e7e8738974bbfe91114104700b24df/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/tawasal/.gradle/caches/transforms-3/78e7e8738974bbfe91114104700b24df/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
